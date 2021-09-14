@@ -1,7 +1,12 @@
 .place {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr minmax(484px, 2fr);
+    grid-template-rows: minmax(min-content, max-content) 2fr;
     max-width: 984px;
     margin-top: 80px;
+    row-gap: 48px;
+    column-gap: 40px;
 }
 
 .place:first-of-type {
