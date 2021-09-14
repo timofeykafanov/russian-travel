@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>russian-travel</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
     <header class="header">
@@ -21,13 +20,12 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="lead__image">
-            <img class="lead__svg" src="images/lead__svg.svg" alt="Картинка Псков-Улан-Уде">
-            </div>
+            <img class="lead__image" src="images/lead__image.png" alt="Картинка Псков-Улан-Уде">
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
 
         <section class="intro">
+            <div class="intro__contain">
             <h3 class="intro__title">Чего мы там не видели?</h3>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют 
                 провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая 
@@ -43,6 +41,7 @@
                 <li><p class="intro__item">Природных заповедников 105</p></li>
                 <li><p class="intro__item">Аэропортов 241</p></li>
             </ul>
+            </div>
         </section>
 
         <section class="photo-grid">
@@ -63,7 +62,7 @@
         <section class="places">
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
-                <img class="place__image" src="#" alt="Куршская коса">
+                <img class="place__image" src="./images/park-kosa.png" alt="Куршская коса">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a href="http://park-kosa.ru/">park-kosa.ru</a>
@@ -78,10 +77,10 @@
             </div>
             <div class="place">
                 <h2 class="place__title">Кольский</h2>
-                <img class="place__image" src="#" alt="Кольский">
+                <img class="place__image" src="./images/kolskiy.png" alt="Кольский">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a href="https://nat-geo.ru/ng-club/phototour/na-kolskiy-poluostrov-s-shef-fotografom-national-geographic-rossiya/">National Geographic</a>
+                    <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                 </div>
                 <p class="paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, 
                     от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -93,10 +92,10 @@
             </div>
             <div class="place">
                 <h2 class="place__title">Алтай</h2>
-                <img class="place__image" src="#" alt="Алтай">
+                <img class="place__image" src="./images/altai.png" alt="Алтай">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
-                    <a href="http://park-kosa.ru/">Facebook</a>
+                    <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                 </div>
                 <p class="paragraph">Алтай — одно из красивейших мест в России. 
                     В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, 
@@ -109,7 +108,7 @@
             </div>
             <div class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
-                <img class="place__image" src="#" alt="Зимний Байкал">
+                <img class="place__image" src="./images/baikal.png" alt="Зимний Байкал">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
@@ -123,7 +122,7 @@
             </div>
             <div class="place">
                 <h2 class="place__title">Карелия</h2>
-                <img class="place__image" src="#" alt="Карелия">
+                <img class="place__image" src="./images/vodlozero.png" alt="Карелия">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a href="http://vodlozero.ru/">http://vodlozero.ru/</a>
