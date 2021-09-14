@@ -8,9 +8,11 @@
     background-size: cover;
     text-decoration: none;
     color: white;
+    position: relative;
 }
 
 .cover__background::after {
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
@@ -18,4 +20,9 @@
     left: 0;
     background-color: black;
     opacity: 0.3;
+    transition: opacity 0.3s ease-in;
+}
+
+.cover__background:hover::after {
+    opacity: 0.8;
 }
