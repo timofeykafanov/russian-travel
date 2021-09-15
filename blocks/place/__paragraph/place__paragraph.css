@@ -7,3 +7,13 @@
 .place__paragraph:first-of-type {
     margin-bottom: 26px;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+    
+    .place__paragraph:first-of-type {
+        margin-bottom: 25px;
+    }
+}
