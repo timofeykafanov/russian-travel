@@ -1,7 +1,11 @@
 .header {
     display: flex;
-    width: 1184px;
-    height: 52px;
+    width: calc(100% - 2 * 48px);
     margin: 28px auto 0;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+    }
 }

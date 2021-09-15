@@ -1,3 +1,4 @@
 .header__link_ru {
-    text-decoration: underline;
+    border-bottom: solid white;
+    margin-right: 18px;
 }

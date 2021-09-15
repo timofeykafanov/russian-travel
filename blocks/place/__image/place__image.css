@@ -1,0 +1,5 @@
+@media screen and (max-width: 1279px) {
+    .place__image {
+        max-width: 440px;
+    }
+}

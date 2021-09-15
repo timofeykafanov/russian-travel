@@ -10,18 +10,24 @@
 <body class="page">
     <header class="header">
         <img class="header__logo" src="images/logo.svg" alt="Логотип Россия">
-        <div class="header__links">
-        <a class="header__link" href="#">Ru</a>
-        <a class="header__link" href="#">En</a>
-        </div>
+        <ul class="header__links">
+        <li class="header__item">
+            <a class="header__link header__link_ru" href="#">Ru</a>
+        </li>
+        <li class="header__item">
+            <a class="header__link header__link_en" href="#">En</a>
+        </li>
+        </ul>
     </header>
 
     <main class="content">
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <img class="lead__image" src="images/lead__image.png" alt="Картинка Псков-Улан-Уде">
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <figure class="lead__figure">
+                <img class="lead__image" src="images/lead__image.png" alt="Картинка Псков-Улан-Уде">
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
 
         <section class="intro">
@@ -60,7 +66,7 @@
         </section>
 
         <section class="places">
-            <div class="place">
+            <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <img class="place__image" src="./images/park-kosa.png" alt="Куршская коса">
                 <div class="place__website">
@@ -76,8 +82,8 @@
                         — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест 
                         исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                 </div>        
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <img class="place__image" src="./images/kolskiy.png" alt="Кольский">
                 <div class="place__website">
@@ -93,8 +99,8 @@
                         скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние 
                         начинает сбываться с билетом в Мурманск.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Алтай</h2>
                 <img class="place__image" src="./images/altai.png" alt="Алтай">
                 <div class="place__website">
@@ -111,8 +117,8 @@
                         над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — 
                         тоже обитатели Алтайского края.</p>
                 </div> 
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <img class="place__image" src="./images/baikal.png" alt="Зимний Байкал">
                 <div class="place__website">
@@ -127,8 +133,8 @@
                         старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале 
                         «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Карелия</h2>
                 <img class="place__image" src="./images/vodlozero.png" alt="Карелия">
                 <div class="place__website">
@@ -143,9 +149,8 @@
                         видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на 
                         сотню километров не встретишь тропы. А на редких тропинках деревья в паре 
                         метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-                    <p class="place__paragraph"></p>
                 </div>
-            </div>
+            </article>
         </section>
 
         <section class="cover">

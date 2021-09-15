@@ -4,6 +4,6 @@
     line-height: 1.63;
 }
 
-.place__paragraph:last-of-type {
-    margin-top: 26px;
+.place__paragraph:first-of-type {
+    margin-bottom: 26px;
 }

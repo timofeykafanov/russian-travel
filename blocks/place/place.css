@@ -1,7 +1,7 @@
 .place {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr minmax(484px, 2fr);
+    grid-template-columns: min-content minmax(min-content, 1fr);
     grid-template-rows: minmax(min-content, max-content) 1fr;
     max-width: 984px;
     margin-top: 80px;
@@ -11,4 +11,10 @@
 
 .place:first-of-type {
     margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place {
+        column-gap: 32px;
+    }
 }

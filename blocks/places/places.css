@@ -1,7 +1,14 @@
 .places {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: auto;
     padding-top: 92px;
-    max-width: 984px;
+    width: calc(100% - 2 * 148px);
+}
+
+@media screen and (max-width: 1279px) {
+    .places {
+        width: calc(100% - 2 * 48px);
+    }
 }

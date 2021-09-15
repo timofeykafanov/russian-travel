@@ -4,8 +4,3 @@
     text-decoration: none;
     color: white;
 }
-
-.header__link:first-of-type {
-    border-bottom: solid white;
-    margin-right: 18px;
-}

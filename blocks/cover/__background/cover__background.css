@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: url('../../../images/cover__background.png');
-    max-width: 1184px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     min-height: 740px;
     background-size: cover;
     text-decoration: none;
     color: white;
     position: relative;
+    z-index: 2;
 }
 
 .cover__background::after {

@@ -1,4 +1,3 @@
 .intro__contain {
-    margin-left: 148px;
-    width: 690px;
+    max-width: 690px;
 }
