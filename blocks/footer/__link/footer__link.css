@@ -7,6 +7,10 @@
     line-height: 1.12;
 }
 
+.footer__link:last-of-type {
+    margin: 0;
+}
+
 .footer__link:hover {
     opacity: 0.8;
 }
