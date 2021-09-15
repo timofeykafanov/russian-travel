@@ -5,6 +5,7 @@
     max-width: 720px;
     text-align: center;
     margin: 0;
+    text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px) {

@@ -6,6 +6,7 @@
     line-height: 1.06;
     max-width: 560px;
     z-index: 2;
+    text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px) {
