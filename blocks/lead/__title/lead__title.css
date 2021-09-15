@@ -6,3 +6,11 @@
     text-align: center;
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 1.1;
+        max-width: 288px;
+    }
+}

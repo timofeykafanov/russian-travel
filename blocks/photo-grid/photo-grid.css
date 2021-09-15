@@ -21,5 +21,15 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
         gap: 16px;
+        width: calc(100% - 2 * 24px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
+        width: calc(100% - 2 * 16px);
     }
 }

@@ -8,3 +8,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin: 90px auto 0;
+    }
+}

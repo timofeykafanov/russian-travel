@@ -10,3 +10,16 @@
 .footer__link:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        display: flex;
+        margin: 0 0 32px;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+    }
+}

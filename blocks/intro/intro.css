@@ -13,5 +13,13 @@
 @media screen and (max-width: 1023px) {
     .intro {
         width: calc(100% - 2 * 24px);
+        padding: 88px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        width: calc(100% - 2 * 16px);
+        padding: 64px 0 0;
     }
 }
