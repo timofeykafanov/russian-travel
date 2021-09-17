@@ -12,10 +12,6 @@
     margin: 0;
 }
 
-.place:last-of-type .place__paragraph {
-    margin: 0;
-}
-
 @media screen and (max-width: 1279px) {
     .place {
         column-gap: 32px;

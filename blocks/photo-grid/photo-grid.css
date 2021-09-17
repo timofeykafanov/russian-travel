@@ -22,6 +22,7 @@
         grid-template-rows: repeat(6, 1fr);
         gap: 16px;
         width: calc(100% - 2 * 24px);
+        margin: 88px auto 0;
     }
 }
 
@@ -31,5 +32,6 @@
         grid-template-rows: repeat(12, 1fr);
         gap: 12px;
         width: calc(100% - 2 * 16px);
+        margin: 64px auto 0;
     }
 }

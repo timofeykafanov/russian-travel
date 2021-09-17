@@ -1,7 +1,6 @@
 .footer__link {
     text-decoration: none;
     color: white;
-    margin-right: 18px;
     transition: opacity 0.2s ease-in;
     font-size: 16px;
     line-height: 1.12;
@@ -17,13 +16,7 @@
 
 @media screen and (max-width: 767px) {
     .footer__link {
-        display: flex;
-        margin: 0 0 32px;
         font-size: 24px;
         line-height: 1;
-    }
-
-    .footer__link:last-of-type {
-        margin-bottom: 48px;
     }
 }
