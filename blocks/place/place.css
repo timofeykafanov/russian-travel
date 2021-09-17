@@ -3,7 +3,7 @@
     grid-template-columns: min-content minmax(min-content, 1fr);
     grid-template-rows: minmax(min-content, max-content) 1fr;
     max-width: 984px;
-    margin-top: 80px;
+    margin: 80px auto 0;
     row-gap: 48px;
     column-gap: 40px;
 }
